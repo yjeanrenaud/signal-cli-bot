@@ -6,8 +6,8 @@ It depend on [signal-cli](https://github.com/AsamK/signal-cli) and uses it as a 
 
 ## Installation and Usgae
 1. First, install dependencies
-``sudo apt-get update;sudo apt-get install python3 python3-pip
-sudo pip install sqlite3 pprint arrow SystemBus GLib ``
+``sudo apt-get update;sudo apt-get install python3 python3-pip``
+``sudo pip install sqlite3 pprint arrow SystemBus GLib ``
 2. and then signal-cli
 `git clone https://github.com/AsamK/signal-cli`
 and follow [the readme of signal-cli](https://github.com/AsamK/signal-cli)
