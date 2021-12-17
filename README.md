@@ -2,7 +2,7 @@
 A simple python3 script based bot for building your own signal channel using signal-cli.
 It was built for [PocketPC.ch](https://www.pocketpc.ch).
 
-It depend on https://github.com/AsamK/signal-cli and uses it as a dbus service
+It depend on [signal-cli](https://github.com/AsamK/signal-cli) and uses it as a dbus service. This project is linked to [signal-cli-newschannel](https://github.com/yjeanrenaud/signal-cli-newschannel) and serves the later with the list of subscribers.
 
 ## Installation
 1. first, install dependencies
