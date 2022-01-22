@@ -15,7 +15,7 @@ case "$1" in
     /usr/bin/screen -dmS signal /usr/local/bin/yj_signal_bot_wrapper.sh &
     ;;
   stop)
-    echo "Stopping yj signal screens"
+    echo "Stopping yj signalbot"
     pkill -f /usr/local/bin/yj_signal_bot_wrapper.sh
     ;;
   *)
