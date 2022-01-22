@@ -14,7 +14,7 @@ sudo cp yj_signal_bot_init.sh /etc/init.d/
 sudo chmod a+x /etc/init.d/yj_signal_bot_init.sh
 
 echho "starting signalbot in a separate screen\n"
-sudo update-rc.dyj_signal_bot_init.sh defaults
+sudo update-rc.d yj_signal_bot_init.sh defaults
 sudo /etc/init.d/yj_signal_bot_init.sh start
 
 echo "all done\n"
