@@ -5,8 +5,8 @@ set -e
 echo "Installing yj_signalbot_regular\n"
 sudo cp yj_signalbot_regular.py /usr/local/bin/
 sudo chmod a+x /usr/local/bin/yj_signalbot_regular.py
-sudo cp yj_signal_bot_init.sh /usr/local/bin/
-sudo chmod a+x /usr/local/bin/yj_signal_bot_init.sh
+sudo cp yj_signal_bot_wrapper.sh /usr/local/bin/
+sudo chmod a+x /usr/local/bin/yj_signal_bot_wrapper.sh
 
 
 echo "installing init.d script\n"
