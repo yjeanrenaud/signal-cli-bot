@@ -2,7 +2,9 @@
 # the main script using a SQLite DB to store subscribers into a Signal Channel
 # 2020 Yves Jeanrenaud for PocketPC.ch 
 
-dbFilename= 'signal.db'
+import os,sys
+dbFilename= os.path.abspath(os.path.dirname(sys.argv[0]))+'/signal.db'
+
 msg ="Unbekannter Befehl.\nDies ist der Channel von PocketPC.ch\n-----------------------------------------------\nSende START zum Anmelden, STOPP zum Abmelden."
 
 def yjDbHandler (source,timestamp,command):
