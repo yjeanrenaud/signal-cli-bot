@@ -77,7 +77,7 @@ def msgRcv (timestamp, source, groupID, message, attachments):
 	
 	#send the message back!
 	print (msg)
-	signal.sendMessage(msg, [], [source])
+	signal.sendMessage(msg, [], [str(source)])
 	return
 
 from pydbus import SystemBus
